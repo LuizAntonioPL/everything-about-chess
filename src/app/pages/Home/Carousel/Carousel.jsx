@@ -1,5 +1,5 @@
 import "./style.css";
-import { FaChevronLeft, FaChevronRight } from "react-icons/lib/fa";
+import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import slides from "./Slides";
 import { useState } from "react";
 
