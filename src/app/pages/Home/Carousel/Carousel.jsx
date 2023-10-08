@@ -3,8 +3,6 @@ import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import slides from "./Slides";
 import { useState } from "react";
 
-let checked = false;
-
 export default function Carousel() {
   const [currentImage, setCurrentImage] = useState(0);
 
