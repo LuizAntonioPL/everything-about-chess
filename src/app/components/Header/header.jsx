@@ -1,7 +1,7 @@
 import "./burgerMenu.css";
 import Image from "next/image";
 import Logo from "@/../public/ChessLogo.png";
-import { FaSearch, FaUserAlt } from "react-icons/fa";
+import { FaSearch, FaUserAlt } from "react-icons/lib/fa";
 import Link from "next/link";
 
 export default function Header() {
