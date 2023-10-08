@@ -1,0 +1,150 @@
+.carousel-container {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 500px;
+  height: 300px;
+  scale: 1;
+}
+
+.carousel-overflow {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.carousel-container input {
+  display: none;
+}
+
+.carousel-images {
+  display: flex;
+  align-items: center;
+  width: 500%;
+  height: 100%;
+  margin-right: 0%;
+  margin-left: var(--incr) !important;
+  transition: 500ms margin;
+}
+
+.image {
+  background-color: rgb(167, 167, 167);
+  height: 300px;
+  width: 500px;
+}
+
+.carousel-bttns {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: absolute;
+  width: 70%;
+  height: 30px;
+  bottom: -50px;
+  transform: translate(-50%);
+  left: 50%;
+  background-color: rgba(0, 0, 0, 0.502);
+  border-radius: 10px;
+}
+
+.carousel-bttns label {
+  height: 25px;
+  width: 25px;
+  background-color: rgb(100, 100, 100);
+  border-radius: 100px;
+  transition: 500ms all;
+}
+
+.image {
+  display: flex;
+  font-family: poppins;
+  color: white;
+}
+
+.userInfo {
+  padding: 20px;
+  height: 100%;
+  width: 350px;
+}
+
+.userInfo sup {
+  font-weight: 900;
+  font-size: 15px;
+}
+
+.carousel-bttns label[for="moveLeft"],
+label[for="moveRight"] {
+  cursor: pointer;
+}
+
+#image0:checked ~ .carousel-bttns label[for="image0"] {
+  background-color: rgb(187, 187, 187);
+  transition: 500ms all;
+}
+
+#image1:checked ~ .carousel-bttns label[for="image1"] {
+  background-color: rgb(187, 187, 187);
+  transition: 500ms all;
+}
+
+#image2:checked ~ .carousel-bttns label[for="image2"] {
+  background-color: rgb(187, 187, 187);
+  transition: 500ms all;
+}
+
+#image3:checked ~ .carousel-bttns label[for="image3"] {
+  background-color: rgb(187, 187, 187);
+  transition: 500ms all;
+}
+
+#image4:checked ~ .carousel-bttns label[for="image4"] {
+  background-color: rgb(187, 187, 187);
+  transition: 500ms all;
+}
+
+#image5:checked ~ .carousel-bttns label[for="image5"] {
+  background-color: rgb(187, 187, 187);
+  transition: 500ms all;
+}
+
+.tstmnlCard {
+  font-family: poppins;
+  color: white;
+  margin-bottom: 30px;
+}
+
+#moveLeft,
+#moveRight {
+  display: none;
+}
+
+label[for="moveLeft"],
+label[for="moveRight"] {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  background-color: rgba(0, 0, 0, 0.767);
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+label[for="moveLeft"]:hover,
+label[for="moveRight"]:hover {
+  background-color: black;
+}
+
+label[for="moveLeft"] {
+  transform: translateY(-50%);
+  top: 50%;
+  left: -25px;
+}
+
+label[for="moveRight"] {
+  transform: translateY(-50%);
+  top: 50%;
+  right: -25px;
+}
