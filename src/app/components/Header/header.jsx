@@ -22,27 +22,13 @@ export default function Header() {
           <p className="text-sm w-24 md:text-md">All About Chess</p>
         </div>
         <nav className="hidden items-center gap-3 md:flex font-bold">
-          <Link className="cursor-pointer hover:shadow-lg px-3 py-2" href="/">
-            Home
-          </Link>
-          <Link
-            className="cursor-pointer hover:shadow-lg px-3 py-2"
-            href="about"
-          >
-            Sobre
-          </Link>
-          <Link className="cursor-pointer hover:shadow-lg px-3 py-2" href="/">
-            Conteudo
-          </Link>
-          <Link className="cursor-pointer hover:shadow-lg px-3 py-2" href="/">
-            Aulas
-          </Link>
-          <Link className="cursor-pointer hover:shadow-lg px-3 py-2" href="/">
-            Coisa legal
-          </Link>
-          <Link className="cursor-pointer hover:shadow-lg px-3 py-2" href="/">
-            Sim
-          </Link>
+          <ul>
+            {Links.map((link, index) => (
+              <li>
+                <Link href={link.linkPath}>{link.linkName}</Link>
+              </li>
+            ))}
+          </ul>
         </nav>
       </div>
       <div className="flex items-center h-full gap-6">
@@ -52,35 +38,6 @@ export default function Header() {
         <a className="hidden md:flex h-fit cursor-pointer">
           <FaUserAlt size={25} />
         </a>
-        <div className="menuContainer md:hidden">
-          <input type="checkbox" id="burgerMenu" />
-          <label htmlFor="burgerMenu">
-            <div className="menuBars" />
-          </label>
-          <nav className="content">
-            <li>
-              <a>Login</a>
-            </li>
-            <li>
-              <a>Home</a>
-            </li>
-            <li>
-              <a>Sobre</a>
-            </li>
-            <li>
-              <a>Conteudo</a>
-            </li>
-            <li>
-              <a>Aulas</a>
-            </li>
-            <li>
-              <a>Coisa legal</a>
-            </li>
-            <li>
-              <a>Sim</a>
-            </li>
-          </nav>
-        </div>
       </div>
     </header>
   );
