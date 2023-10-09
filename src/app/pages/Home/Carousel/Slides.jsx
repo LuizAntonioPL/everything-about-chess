@@ -18,28 +18,28 @@ const slides = [
       "https://www.telegraph.co.uk/content/dam/news/2023/01/16/TELEMMGLPICT000322258500_trans_NvBQzQNjv4BqpVlberWd9EgFPZtcLiMQf0Rf_Wk3V23H2268P_XkPxc.jpeg",
     title: "The Queen",
     description:
-      "A pawn moves forward one square unless it is that pawn's first move. If it is the pawn's first move, then it can move one or two squares. Please note that if a pawn has already been moved, it can never move two squares again.",
+      "The Queen is the most powerful piece. The Queen can move 1-7 squares in any direction, up, down, left, right, or diagonal, until the Queen reaches an obstruction or captures a piece; however, the Queen cannot jump over pieces and can only capture one piece per turn.",
   },
   {
     image:
       "https://images.chesscomfiles.com/uploads/v1/article/27319.746c2259.668x375o.c6cf8543e2d5@2x.png",
     title: "The King",
     description:
-      "A pawn moves forward one square unless it is that pawn's first move. If it is the pawn's first move, then it can move one or two squares. Please note that if a pawn has already been moved, it can never move two squares again.",
+      "In Chess, the King is a slow piece that can move only one step in every direction – forward, backward, to the sides or diagonally. The King can capture any of the opponent's pieces that are standing in any square surrounding the King.",
   },
   {
     image:
       "https://media.istockphoto.com/id/532339782/photo/chess-photographed-on-a-chessboard.jpg?s=612x612&w=0&k=20&c=EKuSMTY12MYOIpZf12kk0h01c4p4JfMww2f7VPzSC7o=",
     title: "The Bishop",
     description:
-      "A pawn moves forward one square unless it is that pawn's first move. If it is the pawn's first move, then it can move one or two squares. Please note that if a pawn has already been moved, it can never move two squares again.",
+      "The Bishop only moves diagonally. The Bishop may move 1-7 squares in any diagonal direction. The Bishop cannot jump over pieces and can only capture one piece per turn. Because the Bishop moves diagonally, it may never move to a different color other than the one it starts on.",
   },
   {
     image:
       "https://www.chess-game-strategies.com/wp-content/uploads/2020/12/Can-A-Knight-Jump-Over-Enemy-Pieces-scaled.jpg",
     title: "The Knight",
     description:
-      "A pawn moves forward one square unless it is that pawn's first move. If it is the pawn's first move, then it can move one or two squares. Please note that if a pawn has already been moved, it can never move two squares again.",
+      "The knight moves multiple squares each move. It either moves up or down one square vertically and over two squares horizontally OR up or down two squares vertically and over one square horizontally. This movement can be remembered as an L-shape because it looks like a capital L.",
   },
 ];
 
