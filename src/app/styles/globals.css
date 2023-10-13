@@ -28,13 +28,3 @@ body {
 .grid-area-footer {
   grid-area: footer;
 }
-
-.header-dark{
-  background-color: black;
-  color: white;
-}
-
-.header-light{
-  background-color: white;
-  color: black;
-}

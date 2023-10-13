@@ -19,7 +19,7 @@ export default function Carousel() {
   };
 
   return (
-    <div className="flex-wrap gap-10 h-80 items-start hidden lg:flex">
+    <div className="flex flex-wrap gap-16 h-fit content-center md:h-80">
       <div className="carousel-container select-none">
         <input
           type="checkbox"

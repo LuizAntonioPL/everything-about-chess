@@ -1,0 +1,11 @@
+:root{
+    --background: #fff,
+    --text: #000,
+    --contentBg: rgb(226 232 240),
+}
+
+[data-theme='dark']{
+    --background: #000,
+    --text: #fff,
+    --contentBg: rgb(81, 83, 85),
+}

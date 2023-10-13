@@ -7,8 +7,7 @@
      position: relative;
      height: 35px;
      width: 35px;
-     background-color: black;
-     border: solid 3px white;
+     background-color: rgb(255, 255, 255);
      border-radius: 20%;
      transition: border 0.5s;
      cursor: pointer;
@@ -23,7 +22,7 @@
      transform: translate(-50%, -50%);
      height: 50%;
      width: 50%;
-     background-color: white;
+     background-color: rgb(0, 0, 0);
      border-radius: 100%;
      transition-duration: 0.5s;
  }
@@ -35,7 +34,7 @@
      right: 0px;
      height: 70%;
      width: 70%;
-     background-color: black;
+     background-color: rgb(255, 255, 255);
      border-radius: 100%;
  }
  
@@ -47,7 +46,7 @@
      transform: translate(-50%, -50%);
      border-left: solid 2px transparent;
      border-right: solid 2px transparent;
-     border-bottom: solid 6px black;
+     border-bottom: solid 6px rgb(255, 255, 255);
  }
  
  .sunray45deg{
@@ -58,7 +57,7 @@
      transform: translate(-50%, -50%) rotate(-45deg);
      border-top: solid 2px transparent;
      border-bottom: solid 2px transparent;
-     border-left: solid 6px black;
+     border-left: solid 6px rgb(255, 255, 255);
  }
  
  .sunrayRight{
@@ -69,7 +68,7 @@
      transform: translate(-50%, -50%);
      border-top: solid 2px transparent;
      border-bottom: solid 2px transparent;
-     border-left: solid 6px black;
+     border-left: solid 6px rgb(255, 255, 255);
  }
  
  .sunray135deg{
@@ -80,7 +79,7 @@
      transform: translate(-50%, -50%) rotate(45deg);
      border-top: solid 2px transparent;
      border-bottom: solid 2px transparent;
-     border-left: solid 6px black;
+     border-left: solid 6px rgb(255, 255, 255);
  }
  
  .sunrayBottom{
@@ -91,7 +90,7 @@
      transform: translate(-50%, -50%);
      border-left: solid 2px transparent;
      border-right: solid 2px transparent;
-     border-top: solid 6px black;
+     border-top: solid 6px rgb(255, 255, 255);
  }
  
  .sunray225deg{
@@ -102,7 +101,7 @@
      transform: translate(-50%, -50%) rotate(-45deg);
      border-top: solid 2px transparent;
      border-bottom: solid 2px transparent;
-     border-right: solid 6px black;
+     border-right: solid 6px rgb(255, 255, 255);
  }
  
  .sunrayLeft{
@@ -113,7 +112,7 @@
      transform: translate(-50%, -50%);
      border-top: solid 2px transparent;
      border-bottom: solid 2px transparent;
-     border-right: solid 6px black;
+     border-right: solid 6px rgb(255, 255, 255);
  }
  
  .sunray315deg{
@@ -124,17 +123,17 @@
      transform: translate(-50%, -50%) rotate(45deg);
      border-top: solid 2px transparent;
      border-bottom: solid 2px transparent;
-     border-right: solid 6px black;
+     border-right: solid 6px rgb(255, 255, 255);
  }
  
  #ThemeBttn:checked ~ label[for="ThemeBttn"] {
      background-color: transparent;
-     border: solid 3px black;
+     border: solid 3px rgb(255, 255, 255);
      transition: all 0.5s;
  } 
  
  #ThemeBttn:checked ~ label[for="ThemeBttn"] .circle{
-     background-color: black;
+     background-color: rgb(255, 255, 255);
  }
  
  #ThemeBttn:checked ~ label[for="ThemeBttn"] .circle::after{

@@ -1,9 +1,11 @@
 import "./themeBttn.css";
 
+
 export default function ThemeButton() {
+
   return (
     <div>
-      <input type="checkbox" id="ThemeBttn" onclick="ThemeBttnFunc()" />
+      <input type="checkbox" id="ThemeBttn" />
       <label htmlFor="ThemeBttn">
         <div className="circle"></div>
         <div className="sunrayTop" />

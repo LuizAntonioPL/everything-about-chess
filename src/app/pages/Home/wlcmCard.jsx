@@ -53,7 +53,7 @@ export default function newFunction() {
           </div>
         </div>
       </div>
-      <div className="flex flex-wrap justify-center items-center content-center w-fit max-[375px]:gap-2 lg:h-full">
+      <div className="flex gap-x-8 flex-wrap justify-center items-center content-center w-fit max-[375px]:gap-2 lg:h-full">
         <Image
           src="https://cdn2.iconfinder.com/data/icons/board-games-5/66/1-512.png"
           width={300}

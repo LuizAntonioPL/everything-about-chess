@@ -1,11 +1,11 @@
 const Links = [
-    {
+    {   
         linkName: "Home",
         linkPath: "/"
     },
     {
         linkName: "About",
-        linkPath: "/about"
+        linkPath: "./pages/About"
     },
     {
         linkName: "Home",

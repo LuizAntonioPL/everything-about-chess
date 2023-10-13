@@ -2,12 +2,12 @@
 
 import Image from "next/image";
 import Logo from "@/../public/ChessLogo.png";
-import { FaSearch, FaUserAlt } from "react-icons/fa";
+import { FaUserAlt } from "react-icons/fa";
 import Link from "next/link";
-import BurgerMenu from "./BurgerMenu/BurgerMenu";
-import ThemeButton from "./ThemeBttn/themeBttn";
-import Links from "./headerLinks";
 import { useEffect, useState } from "react";
+import ThemeButton from "./ThemeBttn/themeBttn";
+import BurgerMenu from "./BurgerMenu/BurgerMenu";
+import Links from "./headerLinks";
 
 export default function Header() {
   let [bgGradient, setBg] = useState(0);
@@ -20,7 +20,7 @@ export default function Header() {
     if (window.scrollY > 0) {
       setBg(
         (bgGradient =
-          "bg-blue-500 bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-10 rounded-md")
+          "bg-slate-500 bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-10 rounded-md")
       );
     } else {
       setBg((bgGradient = "bg-transparent"));
@@ -35,7 +35,7 @@ export default function Header() {
       <div className="flex gap-3 lg:gap-10">
         <div className="flex items-center justify-start w-fit">
           <Image src={Logo} width={50} height={50} alt="Logo" />
-          <p className="text-sm w-24 md:text-md">All About Chess</p>
+          <p className="text-sm w-24 md:text-md">Everything About Chess</p>
         </div>
         <nav className="hidden items-center md:flex">
           <ul className="hidden items-center gap-4 lg:gap-6 md:flex font-bold text-lg">
