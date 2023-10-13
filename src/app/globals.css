@@ -5,15 +5,16 @@
 body {
   display: grid;
   grid-template-areas:
-  "header"
-  "main"
-  "footer";
-  grid-template-rows: 64px 1fr auto;
+    "header"
+    "main"
+    "footer";
+  grid-template-rows: 82px 1fr auto;
   width: 100vw;
   padding: 0px;
   margin: 0px;
   border: 0px;
   overflow-x: hidden;
+
 }
 
 .grid-area-header {
@@ -28,10 +29,12 @@ body {
   grid-area: footer;
 }
 
-.bg-header{
-  background-color: #2F5233;
+.header-dark{
+  background-color: black;
+  color: white;
 }
 
-.bg-content{
-  background-color: #EDEDED;
+.header-light{
+  background-color: white;
+  color: black;
 }

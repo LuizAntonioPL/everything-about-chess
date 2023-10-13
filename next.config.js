@@ -8,9 +8,9 @@ module.exports = {
       remotePatterns: [
         {
           protocol: 'https',
-          hostname: 'images.chesscomfiles.com',
+          hostname: 'cdn2.iconfinder.com',
           port: '',
-          pathname: '/uploads/images_users/tiny_mce/Eyechess/phpKbhHi2.png',
+          pathname: '/data/icons/board-games-5/66/1-512.png',
         },
       ],
     },

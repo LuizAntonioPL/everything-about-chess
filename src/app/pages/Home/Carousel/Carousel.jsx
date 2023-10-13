@@ -19,8 +19,8 @@ export default function Carousel() {
   };
 
   return (
-    <div className="flex-wrap m-10 items-start hidden lg:flex">
-      <div className="carousel-container scale-75 select-none">
+    <div className="flex-wrap gap-10 h-80 items-start hidden lg:flex">
+      <div className="carousel-container select-none">
         <input
           type="checkbox"
           id="moveLeft"
@@ -77,18 +77,18 @@ export default function Carousel() {
         </div>
       </div>
       <div className="flex flex-col justify-start w-96 h-full gap-5">
-        <h1 className="text-2xl font-bold">Know your pieces!</h1>
+        <h1 className="text-3xl font-bold">Know your pieces!</h1>
         {slides.map((slide, index) => (
           <div
             key={index}
             className={
               index === currentImage
-                ? "flex flex-col items-start gap-2 w-126 h-fit bg-slate-400 rounded-md p-4"
+                ? "flex flex-col items-start gap-2 w-126 h-fit bg-slate-200 rounded-md p-4"
                 : "hidden"
             }
           >
-            <h1 className="text-xl font-semibold">{slide.title}</h1>
-            <p>{slide.description}</p>
+            <h1 className="text-2xl font-semibold">{slide.title}</h1>
+            <p className="text-lg">{slide.description}</p>
           </div>
         ))}
       </div>
