@@ -15,12 +15,11 @@ export default function Testimonials() {
         {Cntnt.map((testimonial, index) => {
           return (
             <div
-              className="flex flex-col justify-between max-w-lg px-5 py-4 bg-slate-200 shadow-lg rounded-md"
+              className="flex flex-col justify-between max-w-lg px-5 py-4 bg-slate-200 shadow-lg rounded-md dark:bg-gray-800"
               key={index}
               style={{
-                transform: isInView ? "none" : "transform: translateY(-50px)",
                 opacity: isInView ? 1 : 0,
-                transition: "3s",
+                transition: "opacity 3s",
               }}
             >
               <div className="min-h-32">

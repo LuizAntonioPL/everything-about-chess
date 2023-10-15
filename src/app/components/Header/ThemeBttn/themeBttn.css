@@ -7,7 +7,7 @@
      position: relative;
      height: 35px;
      width: 35px;
-     background-color: rgb(255, 255, 255);
+     background-color: white;
      border-radius: 20%;
      transition: border 0.5s;
      cursor: pointer;
@@ -127,8 +127,7 @@
  }
  
  #ThemeBttn:checked ~ label[for="ThemeBttn"] {
-     background-color: transparent;
-     border: solid 3px rgb(255, 255, 255);
+     background-color: #121212;
      transition: all 0.5s;
  } 
  

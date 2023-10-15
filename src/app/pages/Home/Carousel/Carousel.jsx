@@ -34,10 +34,10 @@ export default function Carousel() {
           onClick={() => moveCarousel("right")}
         />
         <label htmlFor="moveLeft">
-          <FaChevronLeft className="invert" />
+          <FaChevronLeft className="invert dark:invert-0" />
         </label>
         <label htmlFor="moveRight">
-          <FaChevronRight className="invert" />
+          <FaChevronRight className="invert dark:invert-0" />
         </label>
         <div className="carousel-overflow">
           <div className="carousel-images" id="carousel-images">
@@ -83,7 +83,7 @@ export default function Carousel() {
             key={index}
             className={
               index === currentImage
-                ? "flex flex-col items-start gap-2 w-126 h-fit bg-slate-200 rounded-md p-4"
+                ? "flex flex-col items-start gap-2 w-126 h-fit bg-slate-200 dark:bg-gray-800 rounded-md p-4"
                 : "hidden"
             }
           >

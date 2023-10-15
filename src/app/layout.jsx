@@ -1,9 +1,8 @@
 import "./styles/globals.css";
-import "./styles/Themes/defaultTheme.css";
+import { Providers } from "./providers";
 import Header from "./components/Header/header";
-import { Poppins } from "next/font/google";
-import Login from "./pages/Login/Login";
 import Footer from "./components/Footer/footer";
+import { Poppins } from "next/font/google";
 
 const poppins = Poppins({ subsets: ["latin"], weight: "400" });
 
@@ -13,16 +12,16 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
-  
   return (
     <html lang="en">
       <body className={poppins.className}>
-        <Header />
-        <Login className={poppins.className} />
-        <main className="grid-area-main flex flex-col items-center w-full">
-          {children}
-        </main>
-        <Footer />
+        <Providers>
+          <Header />
+          <main className="grid-area-main flex flex-col items-center w-full">
+            {children}
+          </main>
+          <Footer />
+        </Providers>
       </body>
     </html>
   );

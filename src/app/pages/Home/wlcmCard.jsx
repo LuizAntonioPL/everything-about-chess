@@ -17,7 +17,7 @@ export default function newFunction() {
         </h1>
         <div className="flex w-full flex-wrap gap-3 gap-y-0 justify-center items-start md:gap-0 sm:justify-evenly lg:items-center lg:gap-x-10 lg:flex-nowrap max-[280px]:gap-4">
           <div className="flex flex-col gap-1 justify-center w-32 text-center">
-            <div className="flex flex-col items-center justify-center border-b-2 border-black">
+            <div className="flex flex-col items-center justify-center border-b-2 border-black dark:border-white">
               <FaShareAlt size={25} />
               <h1 className="text-lg font-bold max-[375px]:text-md">
                 share and learn
@@ -29,7 +29,7 @@ export default function newFunction() {
           </div>
 
           <div className="flex flex-col gap-1 justify-center w-32 text-center">
-            <div className="flex flex-col items-center border-b-2 border-black">
+            <div className="flex flex-col items-center border-b-2 border-black dark:border-white">
               <FaChess size={25} />
               <h1 className="text-lg font-bold max-[375px]:text-md">
                 play with friends
@@ -41,7 +41,7 @@ export default function newFunction() {
           </div>
 
           <div className="flex flex-col gap-1 justify-center w-32 text-center">
-            <div className="flex flex-col items-center border-b-2 border-black">
+            <div className="flex flex-col items-center border-b-2 border-black dark:border-white">
               <FaPeopleCarry size={25} />
               <h1 className="text-lg font-bold max-[375px]:text-md">
                 create groups
@@ -62,10 +62,10 @@ export default function newFunction() {
           alt="Peças de xadrez"
         />
         <div className="flex flex-col gap-4 h-fit">
-          <a className="flex items-center justify-center px-10 py-2 bg-lime-300 text-lg font-bold cursor-pointer max-[375px]:px-5">
+          <a className="flex items-center justify-center px-10 py-2 rounded-md bg-lime-300 text-lg font-bold cursor-pointer max-[375px]:px-5 dark:bg-lime-600">
             Join now
           </a>
-          <a className="flex items-center justify-center px-10 py-2 bg-slate-300 text-lg font-bold cursor-pointer max-[375px]:px-5">
+          <a className="flex items-center justify-center px-10 py-2 rounded-md bg-slate-300 text-lg font-bold cursor-pointer max-[375px]:px-5 dark:bg-slate-600">
             Sign up
           </a>
         </div>

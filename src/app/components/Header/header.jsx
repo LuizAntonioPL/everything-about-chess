@@ -34,7 +34,7 @@ export default function Header() {
     >
       <div className="flex gap-3 lg:gap-10">
         <div className="flex items-center justify-start w-fit">
-          <Image src={Logo} width={50} height={50} alt="Logo" />
+          <Image src={Logo} width={50} height={50} alt="Logo" className="dark:invert"/>
           <p className="text-sm w-24 md:text-md">Everything About Chess</p>
         </div>
         <nav className="hidden items-center md:flex">
@@ -51,7 +51,7 @@ export default function Header() {
       <div className="flex items-center h-full gap-6">
         <Link
           className="hidden md:flex h-fit cursor-pointer"
-          href={"#login-blur"}
+          href={"penis"}
         >
           <FaUserAlt size={25} />
         </Link>
