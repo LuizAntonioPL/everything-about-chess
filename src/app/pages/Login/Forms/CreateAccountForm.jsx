@@ -35,11 +35,11 @@ export default function CreateAccountForm() {
               required="required"
             />
             <label htmlFor="password">Senha</label>
-            <input type="checkbox" id="showPassword" onclick />
+            <input type="checkbox" id="showPassword" onClick />
             <label
               htmlFor="showPassword"
               className="showPassword"
-              onclick="showPsswrd(this)"
+              onClick="showPsswrd(this)"
             >
               <span className="material-symbols-outlined">visibility</span>
             </label>
