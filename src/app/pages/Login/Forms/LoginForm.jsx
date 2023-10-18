@@ -27,7 +27,7 @@ export default function LoginForm() {
           <label
             htmlFor="showPassword"
             className="showPassword"
-            onclick="showPsswrd(this)"
+            onClick="showPsswrd(this)"
           >
             <span className="material-symbols-outlined"> visibility </span>
           </label>
