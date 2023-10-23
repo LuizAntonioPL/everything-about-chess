@@ -2,6 +2,7 @@ import Cntnt from "./TestimonialContent";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
 
+
 export default function Testimonials() {
   const ref = useRef(null);
   const isInView = useInView(ref);

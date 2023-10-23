@@ -1,8 +1,8 @@
 "use client"
 
-import WlcmCard from "./pages/Home/wlcmCard"
-import Carousel from "./pages/Home/Carousel/Carousel";
-import Testimonials from "./pages/Home/Testimonials/Testimonials";
+import WlcmCard from "../components/HomePage/wlcmCard"
+import Carousel from "../components/HomePage/Carousel/Carousel";
+import Testimonials from "../components/HomePage/Testimonials/Testimonials";
 
 export default function Home() {
   return (

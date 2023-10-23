@@ -5,19 +5,19 @@ const Links = [
     },
     {
         linkName: "About",
-        linkPath: "./pages/About"
+        linkPath: "/pages/About"
     },
     {
-        linkName: "Home",
-        linkPath: "/"
+        linkName: "GMs",
+        linkPath: "/pages/Champs"
     },
     {
-        linkName: "Home",
-        linkPath: "/"
+        linkName: "Moves",
+        linkPath: "/pages/Moves"
     },
     {
-        linkName: "Home",
-        linkPath: "/"
+        linkName: "Credits",
+        linkPath: "/pages/Credits"
     }
 ]
 

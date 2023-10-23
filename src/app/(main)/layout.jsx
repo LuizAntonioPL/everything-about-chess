@@ -1,7 +1,7 @@
-import "./styles/globals.css";
-import { Providers } from "./providers";
-import Header from "./components/Header/header";
-import Footer from "./components/Footer/footer";
+import "@/app/styles/globals.css";
+import { Providers } from "../providers";
+import Header from "../components/Header/header";
+import Footer from "../components/Footer/footer";
 import { Poppins } from "next/font/google";
 
 const poppins = Poppins({ subsets: ["latin"], weight: "400" });
