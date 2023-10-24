@@ -19,7 +19,7 @@ export default function TopBttn(){
     }
     
     return(
-        <a href="#" className={`${display} sticky top-[calc(100vh-90px)] ml-[calc(100vw-200px)] max-h-screen scroll-smooth`}>
+        <a href="#" className={`${display} sticky top-[calc(100vh-90px)] mr-[10vw] right-0 self-end`}>
             <BsArrowUpCircle size={40}/>
         </a>
     )

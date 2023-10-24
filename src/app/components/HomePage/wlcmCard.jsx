@@ -62,11 +62,11 @@ export default function newFunction() {
           alt="Peças de xadrez"
         />
         <div className="flex flex-col gap-4 h-fit">
-          <a className="flex items-center justify-center px-10 py-2 rounded-md bg-lime-300 text-lg font-bold cursor-pointer max-[375px]:px-5 dark:bg-lime-600">
+          <a className="flex items-center justify-center px-10 py-2 rounded-md bg-indigo-300 text-lg font-bold cursor-pointer max-[375px]:px-5 dark:bg-indigo-700">
             Join now
           </a>
-          <a className="flex items-center justify-center px-10 py-2 rounded-md bg-slate-300 text-lg font-bold cursor-pointer max-[375px]:px-5 dark:bg-slate-600">
-            Sign up
+          <a className="flex items-center justify-center px-10 py-2 rounded-md bg-gray-800 text-white text-lg cursor-pointer max-[375px]:px-5 dark:bg-white dark:text-black">
+            Login
           </a>
         </div>
       </div>

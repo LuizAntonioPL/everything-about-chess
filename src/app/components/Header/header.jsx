@@ -66,13 +66,13 @@ export default function Header() {
       <div className="flex items-center h-full gap-6">
         <div className="flex gap-1">
           <Link
-            className="p-2 rounded-sm hidden md:flex h-full cursor-pointer bg-black text-white dark:bg-white dark:text-black"
+            className="p-2 rounded-sm hidden md:flex h-full cursor-pointer bg-gray-800 text-white dark:bg-white dark:text-black"
             href={"/Login"}
           >
             Login
           </Link>
           <Link
-            className="p-2 rounded-sm hidden md:flex h-full cursor-pointer bg-gray-700 text-white dark:bg-slate-700"
+            className="p-2 rounded-sm hidden md:flex h-full cursor-pointer bg-indigo-300 text-black dark:text-white dark:bg-indigo-600"
             href={"/SignUp"}
           >
             Sign Up

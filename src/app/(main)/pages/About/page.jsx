@@ -1,4 +1,4 @@
-import TopBttn from "./TopBttn/topBttn";
+import TopBttn from "../articleComponents/TopBttn/topBttn";
 
 export default function About() {
   return (
@@ -11,7 +11,7 @@ export default function About() {
           style={{}}
         />
         <div className="flex flex-col mx-auto sm:w-2/3 px-10 py-16 min-h-40 bg-zinc-300 dark:bg-gray-800">
-          <div className="mb-10 dark:bg-slate-700 bg-gray-200 p-4">
+          <div className="flex flex-col mb-10 dark:bg-slate-700 bg-gray-200 p-4 gap-3">
             <h1 className="text-3xl font-bold">What is chess?</h1>
             <p>
               In this article, we are going to discover what in fact chess
@@ -30,7 +30,6 @@ export default function About() {
               </sup>
             </div>
           </div>
-
           <section className="flex flex-col w-full gap-6 mb-10">
             <h2 className="text-2xl underline">The soul of chess</h2>
             <div>
@@ -62,7 +61,7 @@ export default function About() {
               </p>
             </div>
           </section>
-          <section className="flex flex-col w-full gap-6">
+          <section className="flex flex-col w-full gap-6 mb-10">
             <h2 className="text-2xl underline">How chess changes lives</h2>
             <div>
               <p className="first-letter:ml-3 first-letter:text-5xl dark:first-letter:text-lime-300 first-letter:text-lime-800 first-letter:float-left">
